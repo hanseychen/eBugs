@@ -1,5 +1,3 @@
-# Understanding Exception-Related Bugs in Large-Scale Cloud Systems
-
 ## What are exception-related bugs?
 
 To be added.
