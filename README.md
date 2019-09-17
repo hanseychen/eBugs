@@ -56,6 +56,8 @@ and our paper.
 
 System | Exception Class | Error Message | Triggering Condition | Created Issue | Issue Type
 -------|-----------------|---------------|----------------------|---------------|-----------
+Hadoop (3.1.2) | DiskErrorException | "Invalid value configured for" | semantic condition | [HDFS-14469](https://issues.apache.org/jira/browse/HDFS-14469) | bug
+Hadoop (3.1.2) | IOException | "replaceFile interrupted." | untimely interrupt | [HADOOP-16295](https://issues.apache.org/jira/browse/HADOOP-16295) | bug
 Cassandra (3.11) | RuntimeException | "Interrupted while waiting for stream/fetch ranges to finish" | untimely interrupt | [CASSANDRA-15111](https://issues.apache.org/jira/browse/CASSANDRA-15111) | bad practice
 Cassandra (3.11) | RuntimeException | "Interrupted while waiting on rebuild streaming" | untimely interrupt | [CASSANDRA-15112](https://issues.apache.org/jira/browse/CASSANDRA-15112) | bad practice
 Cassandra	(3.11) | RuntimeException | "Node interrupted while decommissioning" | untimely interrupt | [CASSANDRA-15113](https://issues.apache.org/jira/browse/CASSANDRA-15113) | bad practice
@@ -66,10 +68,8 @@ Cassandra (3.11) | RuntimeException | "Unable to create directory:" | file syste
 Cassandra (3.11) | RuntimeException | "Unable to list directory:" | file system error | [CASSANDRA-15117](https://issues.apache.org/jira/browse/CASSANDRA-15117) | bad practice
 Hadoop (3.1.2) | DiskErrorException | "Invalid value configured for" | semantic condition | [HDFS-14467](https://issues.apache.org/jira/browse/HDFS-14467) | bad practice
 Hadoop (3.1.2) | DiskErrorException | "Invalid value configured for" | semantic condition | [HDFS-14468](https://issues.apache.org/jira/browse/HDFS-14468) | bad practice
-Hadoop (3.1.2) | DiskErrorException | "Invalid value configured for" | semantic condition | [HDFS-14469](https://issues.apache.org/jira/browse/HDFS-14469) | bug
 Hadoop (3.1.2) | DiskErrorException | "Invalid value configured for" | semantic condition | [HDFS-14470](https://issues.apache.org/jira/browse/HDFS-14470) | bad practice
 Hadoop (3.1.2) | IOException | "Interrupted receiveBlock" | untimely interrupt | [HDFS-14473](https://issues.apache.org/jira/browse/HDFS-14473) | bad practice
-Hadoop (3.1.2) | IOException | "replaceFile interrupted." | untimely interrupt | [HADOOP-16295](https://issues.apache.org/jira/browse/HADOOP-16295) | bug
 Hadoop (3.1.2) | RuntimeException | "Cannot create directory" | file system error | [HADOOP-16296](https://issues.apache.org/jira/browse/HADOOP-16296) | bad practice
 Hadoop (3.1.2) | RuntimeException | "Specified work directory does not exists" | file system error | [HADOOP-16297](https://issues.apache.org/jira/browse/HADOOP-16297) | bad practice
 Hadoop (3.1.2) | YarnException | "Interrupted while retrying to connect to ATS" | untimely interrupt | [YARN-9533](https://issues.apache.org/jira/browse/YARN-9533) | bad practice
