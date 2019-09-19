@@ -77,6 +77,7 @@ Hadoop (3.1.2) | YarnException | "Interrupted while trying to connect ATS" | unt
 
 ## Publication
 
-*Understanding Exception-Related Bugs in Large-Scale Cloud Systems*
-Haicheng Chen, Wensheng Dou, Yanyan Jiang, Feng Qin
-34th IEEE/ACM International Conference on Automated Software Engineering (**ASE 2019**).
+**Understanding Exception-Related Bugs in Large-Scale Cloud Systems**
+\[[preprint](http://web.cse.ohio-state.edu/~chen.4800/eBugs.pdf)\]<br/>
+Haicheng Chen, Wensheng Dou, Yanyan Jiang, Feng Qin<br/>
+34th IEEE/ACM International Conference on Automated Software Engineering (ASE 2019).
